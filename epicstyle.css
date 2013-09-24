@@ -1,0 +1,40 @@
+#
+#	Header styles
+#
+
+header{
+	font-family: sans-serif;
+	background-color: black;
+	display: block;
+	overflow: hidden;
+}
+
+body header ul{
+	padding: 30px 0px 10px 150px;
+	list-style: none;
+	overflow: hidden;
+    zoom: 1;
+}
+
+body header ul li{
+	float: left;
+}
+
+body header ul a{
+	color: rgb(190,190,190);
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+	margin: 15px;
+	text-align: center;
+}
+
+body header ul a:hover{
+	color: white;
+}
+
+body header form{
+	float: right;
+}
