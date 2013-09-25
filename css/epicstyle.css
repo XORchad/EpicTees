@@ -50,3 +50,27 @@ body {
 .add-cart{
 	width: 70%;
 }
+
+.jumbotron{
+	margin-bottom: 0px !important;
+}
+
+/**
+ *	Footer styles
+ **/
+
+.page-footer{
+	border-top-color: rgb(211,211,211) !important;
+	border-top: 1px solid;
+	padding-top: 20px;
+}
+
+.author{
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+.page-footer a:hover{
+	text-decoration: none;
+	color: grey;
+}
