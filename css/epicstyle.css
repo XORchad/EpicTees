@@ -1,43 +1,52 @@
 body {
 	font-family: sans-serif;
+	padding-top: 50px;
 }
 
 /**
  *	Header styles
  **/
 
-header{
-	font-family: sans-serif;
-	background-color: black;
-	display: block;
-	overflow: hidden;
+#search input,
+#search button
+{
+	color: grey;
+	background-color: transparent;
+	border-color: transparent;
+	font-size: 14px;
+	line-height: 14px;
+	outline: 0px;
 }
 
-#navbar{
-	padding: 30px 0px 10px 150px;
+/**
+ *	Product Info styles
+ **/
+
+.rating{
+	margin: 0px;
+	padding: 0px;
 	list-style: none;
-	overflow: hidden;
 }
 
-#navbar li{
+.rating li{
+	position: relative;
 	float: left;
 }
 
-#navbar a{
-	color: rgb(190,190,190);
-	font-weight: bold;
-	font-size: 18px;
-	text-decoration: none;
-	display: block;
-	padding: 5px;
-	margin: 15px;
-	text-align: center;
+.rating .off{
+	color: grey;
 }
 
-#navbar a:hover{
-	color: white;
+.rating a{
+	font-size: 14px;
 }
 
-body header form{
-	float: right;
+.product-info
+
+.size{
+	width: 30%;
+}
+
+.add-cart{
+	width: 70%;
 }
