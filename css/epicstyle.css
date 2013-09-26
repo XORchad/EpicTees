@@ -25,18 +25,21 @@ body {
 /**
  *	Cart styles
  **/
-.cart a{
+header .dropdown-menu{
+	background-color: rgb(20,20,20) !important;	
+}
+
+header .dropdown-menu a{
 	color: rgb(160,160,160) !important;
 }
 
-.cart a:hover{
+header .dropdown-menu a:hover{
 	background-color: transparent !important;
 	color: white !important;
 }
 
 .cart{
 	width: 280px;
-	background-color: rgb(20,20,20) !important;
 }
 
 .cart li{
