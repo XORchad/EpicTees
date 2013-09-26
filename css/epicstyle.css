@@ -3,6 +3,10 @@ body {
 	padding-top: 50px;
 }
 
+.center{
+ 	text-align: center;
+ }
+
 /**
  *	Header styles
  **/
@@ -16,6 +20,36 @@ body {
 	font-size: 14px;
 	line-height: 14px;
 	outline: 0px;
+}
+
+/**
+ *	Cart styles
+ **/
+.cart a{
+	color: rgb(160,160,160) !important;
+}
+
+.cart a:hover{
+	background-color: transparent !important;
+	color: white !important;
+}
+
+.cart{
+	width: 280px;
+	background-color: rgb(20,20,20) !important;
+}
+
+.cart li{
+ 	font-size: 12px;
+ }
+
+.cart img{
+	margin-left: 5px;
+}
+
+.pay h3{
+	margin-top: 10px;
+	margin-bottom: 0px
 }
 
 /**
@@ -43,8 +77,13 @@ body {
 
 .product-info
 
-.size{
+@media (min-width: 992px){
+	.size{
+		margin-top: 40px;
+	}
+}
 
+.size{
 	width: 15%;
 	background-color: white;
 	border-color: grey;
@@ -80,4 +119,8 @@ body {
 .page-footer a:hover{
 	text-decoration: none;
 	color: grey;
+}
+
+.navbar-bottom{
+	background-color: transparent !important;
 }
