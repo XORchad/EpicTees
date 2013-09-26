@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Samuel del Bello">
+		<meta name="keywords" content="t-shirt, shop, buy">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<title>test case for Epic Companies</title>
+
+		<link rel="stylesheet" type="text/css" href="epicstyle.css">
+		<link rel="stylesheet" type="text/css" href="external/bootstrap-3.0.0/dist/css/bootstrap.min.css">
+	</head>
+
+	<body>
+		<header class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+				      <span class="sr-only">Toggle navigation</span>
+				      <span class="icon-bar"></span>
+				      <span class="icon-bar"></span>
+				      <span class="icon-bar"></span>
+	    			</button>
+	    			<a class="navbar-brand" href="index.html">EpicTees</a>
+				</div>	
+
+				<nav class="collapse navbar-collapse navbar-ex1-collapse">
+				    <ul class="nav navbar-nav">
+					  <li>
+					    <a href="showroom.html">Show Room</a>
+					  </li>
+				      <li class="dropdown">
+				        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shooping Cart  <span class="glyphicon glyphicon-shopping-cart"></span><b class="caret"></b></a>
+				        <ul class="cart dropdown-menu" role="menu">
+					      <li>
+			          		<div class="row">
+			          			<a href="#">
+					          		<div class="col-md-4 col-xs-4">
+					          			<p><img src="images/biketee1.jpg" class="img-responsive"></p>
+					          		</div>
+					          		<div class="col-md-6 col-xs-7">
+					          			<strong>World Bike Invasion!</strong>
+					          			<br>
+				          				(M)&nbsp;15€
+					          		</div>
+				          		</a>
+				          		<div class="col-md-1 col-xs-1">
+				          			 <a href="#"><span class="glyphicon glyphicon-remove"></span></a>
+				          		</div>
+		         		 	</div>
+		         		 </li>
+				         <li>
+			          		<div class="row">
+			          			<a href="#">
+					          		<div class="col-md-4 col-xs-4">
+					          			<p><img src="images/biketee1.jpg" class="img-responsive"></p>
+					          		</div>
+					          		<div class="col-md-6 col-xs-7">
+					          			<strong>World Bike Invasion!</strong>
+					          			<br>
+				          				(L)&nbsp;15€
+					          		</div>
+				          		</a>
+				          		<div class="col-md-1 col-xs-1">
+				          			 <a href="#"><span class="glyphicon glyphicon-remove"></span></a>
+				          		</div>
+		         		 	</div>
+		         		 </li>
+		         		 <li class="pay center">
+		         		 	<a href="#"><h3>Pay Now</h3> <small>(30€ - 2 items)</small></a>
+		         		 </li>
+				        </ul>
+				      </li>
+				    </ul>
+
+				    <ul class="nav navbar-nav navbar-right">
+				      <li>
+				    	<form id ="search" class="navbar-form navbar-right" role="search">
+					      <fieldset>
+					      	<div class="form-group">
+					        	<input type="text" class="form-control" placeholder="Search Store">
+					        </div>
+					      	<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+					      </fieldset>
+				    	</form>
+					  </li>
+				    </ul>
+				  </nav>
+			</div>
+		</header>
+		
+		<div id="page-content">
+			<div class="row">
+				<div id="sidenav" class="col-md-2 col-xs-3 sidebar-offcanvas" role="navigation">
+					<div class="well sidebar-nav">
+						<ul class="nav">
+							<li class="menu-head">
+								Who
+							</li>
+							<li>
+								<a href="#">Guys</a>
+							</li>
+							<li>
+								<a href="#">Girls</a>
+							</li>
+							<li>
+								<a href="#">Kids</a>
+							</li>
+							<li class="menu-head">
+								Style
+							</li>
+							<li>
+								<a href="#">T-shirt</a>
+							</li>
+							<li>
+								<a href="#">Longsleeve</a>
+							</li>
+							<li class="menu-head">
+								Syze
+							</li>
+							<ul class="nav size-menu">
+								<li>
+									<a href="#">XS</a>
+								</li>
+								<li>
+									<a href="#">S</a>
+								</li>
+								<li>
+									<a href="#">M</a>
+								</li>
+								<li>
+									<a href="#">L</a>
+								</li>
+								<li>
+									<a href="#">XL</a>
+								</li>
+							</ul>
+							<li class="menu-head">
+								Price
+							</li>
+							<li>
+								<ul class="nav size-menu">
+								<li>
+									<a href="#">5€</a>
+								</li>
+								<li>
+									<a href="#">10€</a>
+								</li>
+								<li>
+									<a href="#">15€</a>
+								</li>
+								<li>
+									<a href="#">20€</a>
+								</li>
+								<li>
+									<a href="#">25€</a>
+								</li>
+							</ul>
+							</li>
+							<li class="menu-head">
+								Color
+							</li>
+							<li>
+								<div class="color-menu row">
+									<div class="col-md-1 col-md-offset-1" style="background-color: black;">
+										<a href="#">&nbsp;</a>
+									</div>
+									<div class="grey col-md-1 col-md-offset-1" style="background-color: grey;">
+										<a href="#">&nbsp;</a>
+									</div>
+									<div class="white col-md-1 col-md-offset-1" style="background-color: white;">
+										<a href="#">&nbsp;</a>
+									</div>
+									<div class="blue col-md-1 col-md-offset-1" style="background-color: blue;">
+										<a href="#">&nbsp;</a>
+									</div>
+									<div class="green col-md-1 col-md-offset-1" style="background-color: green;">
+										<a href="#">&nbsp;</a>
+									</div>
+									<div class="red col-md-1 col-md-offset-1" style="background-color: red;">
+										<a href="#">&nbsp;</a>
+									</div>
+									<div class="yellow col-md-1 col-md-offset-1" style="background-color: yellow;">
+										<a href="#">&nbsp;</a>
+									</div>
+									<div class="brown col-md-1 col-md-offset-1" style="background-color: brown;">
+										<a href="#">&nbsp;</a>
+									</div>
+									<div class="orange col-md-1 col-md-offset-1" style="background-color: orange;">
+										<a href="#">&nbsp;</a>
+									</div>
+								</div>
+							</li>
+							<li class="menu-head">
+								Category
+							</li>
+							<li>
+					      	   <a href="#">Activist</a>
+					        </li>
+					        <li>
+					      	   <a href="#">Cartoons</a>
+					        </li>
+					        <li>
+					      	   <a href="#">Cute</a>
+					        </li>
+					        <li>
+					      	   <a href="#">Funny</a>
+					        </li>
+					        <li>
+					      	   <a href="#">Film</a>
+					        </li>
+					        <li>
+					      	   <a href="#">Ironic</a>
+					        </li>
+					        <li>
+					      	   <a href="#">Nerdy</a>
+					        </li>
+					        <li>
+					      	   <a href="#">Patterns</a>
+					        </li>
+					        <li>
+					      	   <a href="#">Political</a>
+					        </li>
+					        <li>
+					      	   <a href="#">Religion</a>
+					        </li>
+					        <li>
+					      	   <a href="#">Sentences</a>
+					        </li>
+					        
+						</ul>
+					</div>
+				</div>
+
+				<div id="products-showroom" class="col-md-9 col-xs-9">
+					<div class="container">
+						<div class="row">
+							<div class="product-window col-md-3 col-xs-6">
+								<a href="product.html">
+									<p><img src="images/biketee1.jpg" class="img-responsive img-rounded"></p>
+									<strong>World Bike Invasion!</strong>
+				          			<br>
+			          				15€
+			          			</a>				
+							</div>
+							<div class="product-window col-md-3 col-xs-6">
+								<a href="product.html">
+									<p><img src="images/biketee1.jpg" class="img-responsive img-rounded"></p>
+									<strong>World Bike Invasion!</strong>
+				          			<br>
+			          				15€
+			          			</a>				
+							</div>
+							<div class="product-window col-md-3 col-xs-6">
+								<a href="product.html">
+									<p><img src="images/biketee1.jpg" class="img-responsive img-rounded"></p>
+									<strong>World Bike Invasion!</strong>
+				          			<br>
+			          				15€
+			          			</a>				
+							</div>
+							<div class="product-window col-md-3 col-xs-6">
+								<a href="product.html">
+									<p><img src="images/biketee1.jpg" class="img-responsive img-rounded"></p>
+									<strong>World Bike Invasion!</strong>
+				          			<br>
+			          				15€
+			          			</a>				
+							</div>
+							<div class="product-window col-md-3 col-xs-6">
+								<a href="product.html">
+									<p><img src="images/biketee1.jpg" class="img-responsive img-rounded"></p>
+									<strong>World Bike Invasion!</strong>
+				          			<br>
+			          				15€
+			          			</a>				
+							</div>
+							<div class="product-window col-md-3 col-xs-6">
+								<a href="product.html">
+									<p><img src="images/biketee1.jpg" class="img-responsive img-rounded"></p>
+									<strong>World Bike Invasion!</strong>
+				          			<br>
+			          				15€
+			          			</a>				
+							</div>
+							<div class="product-window col-md-3 col-xs-6">
+								<a href="product.html">
+									<p><img src="images/biketee1.jpg" class="img-responsive img-rounded"></p>
+									<strong>World Bike Invasion!</strong>
+				          			<br>
+			          				15€
+			          			</a>				
+							</div>
+							<div class="product-window col-md-3 col-xs-6">
+								<a href="product.html">
+									<p><img src="images/biketee1.jpg" class="img-responsive img-rounded"></p>
+									<strong>World Bike Invasion!</strong>
+				          			<br>
+			          				15€
+			          			</a>				
+							</div>
+							<div class="product-window col-md-3 col-xs-6">
+								<a href="product.html">
+									<p><img src="images/biketee1.jpg" class="img-responsive img-rounded"></p>
+									<strong>World Bike Invasion!</strong>
+				          			<br>
+			          				15€
+			          			</a>				
+							</div>
+							<div class="product-window col-md-3 col-xs-6">
+								<a href="product.html">
+									<p><img src="images/biketee1.jpg" class="img-responsive img-rounded"></p>
+									<strong>World Bike Invasion!</strong>
+				          			<br>
+			          				15€
+			          			</a>				
+							</div>
+							<div class="product-window col-md-3 col-xs-6">
+								<a href="product.html">
+									<p><img src="images/biketee1.jpg" class="img-responsive img-rounded"></p>
+									<strong>World Bike Invasion!</strong>
+				          			<br>
+			          				15€
+			          			</a>				
+							</div>
+							<div class="product-window col-md-3 col-xs-6">
+								<a href="product.html">
+									<p><img src="images/biketee1.jpg" class="img-responsive img-rounded"></p>
+									<strong>World Bike Invasion!</strong>
+				          			<br>
+			          				15€
+			          			</a>				
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+			
+	<footer class="page-footer">
+			<div clas="container">
+				<ul class="navbar-bottom breadcrumb pull-right">
+					<li><a href="#" title="About EpicTees">About</a></li>
+					<li><a class="phone-number" href="tel:+351918312698" title="Call our customer Service">+351 918312698 <span class="glyphicon glyphicon-earphone"></span></a></li>
+					<li><a class="call" href="#top" target="_top">Top <span class="glyphicon glyphicon-chevron-up"></span></a></li>
+				</ul>
+
+				<span class="author pull-left"> 
+					<small>
+						© 2013 - Designed and Implemented by <a href="https://www.xing.com/profiles/Samuel_delBello" target="_blank">Samuel del Bello</a>
+					</small>
+				</span>
+			</div>
+		</footer>
+
+		<script type="text/javascript" src="external/jquery-2.0.3.min.js"></script>
+		<script type="text/javascript" src="external/bootstrap-3.0.0/dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="epicscript.js"></script>
+	</body>
+</html>
